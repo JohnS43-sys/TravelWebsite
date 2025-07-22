@@ -47,7 +47,7 @@ document.getElementById('searchBtn').addEventListener('click', () => {
     return;
   }
 
-  const input = document.getElementById('searchInput').value;
+  const input = document.getElementById('searchBar').value;
   const keyword = normalizeKeyword(input);
 
   const resultsDiv = document.getElementById('results');
@@ -77,5 +77,5 @@ document.getElementById('searchBtn').addEventListener('click', () => {
 // Clear button logic
 document.getElementById('clearBtn').addEventListener('click', () => {
   document.getElementById('results').innerHTML = '';
-  document.getElementById('searchInput').value = '';
+  document.getElementById('searchBar').value = '';
 });

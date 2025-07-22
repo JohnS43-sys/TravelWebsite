@@ -1,6 +1,4 @@
-/* General body and background */
-  
-  /* Navbar styling */
+
   nav {
     background-image: linear-gradient(to bottom, #303030, #ffffff);
     padding: 15px 20px;
@@ -27,7 +25,7 @@
     color: #004080;
   }
   
-  /* Navbar left and right sections */
+  
   .nav-left {
     display: flex;
     align-items: center;
@@ -39,7 +37,7 @@
     gap: 10px;
   }
   
-  /* Search bar */
+ 
   #searchBar {
     padding: 10px 12px;
     font-size: 16px;
@@ -48,7 +46,7 @@
     width: 200px;
   }
   
-  /* Buttons */
+ 
   button {
     padding: 10px 18px;
     font-size: 16px;
@@ -64,10 +62,10 @@
     background-color: #4d4d4d;
   }
   
-  /* Main content container */
+  
 
   
-  /* Headings */
+ 
   h1 {
     font-size: 3rem;
     margin-bottom: 0.5em;
@@ -80,14 +78,14 @@
     color: #ffffff;
   }
   
-  /* Paragraphs */
+ 
   p {
     font-size: 1.2rem;
     max-width: 600px;
     color: #ffffff;
   }
   
-  /* Form styling for Contact Us page */
+  
   form {
     width: 100%;
     max-width: 600px;
@@ -118,7 +116,7 @@
     display: inline-block;
   }
   
-  /* Responsive adjustments */
+  
   @media (max-width: 600px) {
     nav {
       flex-direction: column;
@@ -144,11 +142,11 @@
   body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-image: url('./luca-bravo-O453M2Liufs-unsplash.jpg'); /* Replace with your image path */
+    background-image: url('./luca-bravo-O453M2Liufs-unsplash.jpg'); 
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed; /* Optional: keeps image fixed while scrolling */
+    background-attachment: fixed; 
     height: 100vh;
     color: white;
   }
